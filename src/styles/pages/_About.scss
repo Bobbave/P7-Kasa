@@ -1,0 +1,31 @@
+.show_about {
+    margin-top: 16px;
+    @media screen and (min-width: 900px) {
+        margin-top: 63px;
+    }
+    .banner {
+        height: 225px;
+
+        .background_image {
+            object-fit: cover;
+            object-position: 100% 50%;
+            @media screen and (min-width: 900px) {
+                object-position: 50% 25%;
+            }
+        }
+    }
+}
+
+.show_collapses {
+    margin: 19px 0;
+    @media screen and (min-width: 900px) {
+        margin: 31px 0;
+    }
+
+    .collapses {
+        margin-bottom: 20px;
+        @media screen and (min-width: 900px) {
+            margin-bottom: 33px;
+        }
+    }
+}

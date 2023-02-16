@@ -1,0 +1,56 @@
+.notFound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    width: 100%;
+    margin: 277px auto;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        color: $color-primary;
+        font-size: 96px;
+        line-height: 142.6%;
+
+        @media screen and (min-width: 900px) {
+            font-size: 288px;
+        }
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.6%;
+        @media screen and (min-width: 900px) {
+            font-size: 36px;
+        }
+    }
+
+    .notFound_desktop {
+      display: none;
+      @media screen and (min-width: 600px) {
+          display: block;
+      }
+  }
+
+  .notFound_mobile {
+      display: block;
+      @media screen and (min-width: 600px) {
+          display: none;
+      }
+  }
+
+    .return_link {
+        font-weight: 500;
+        font-size: 14px;
+        @media screen and (min-width: 500px) {
+            font-size: 18px;
+        }
+    }
+}

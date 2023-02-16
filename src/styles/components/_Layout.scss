@@ -1,0 +1,17 @@
+.body {
+  display:flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  .body_layout {
+    margin: 20px;
+    width: 90%;
+    max-width: 1240px;
+    min-width: 335px;
+    position: relative;
+    flex-grow: 1;
+      @media screen and (min-width: 500px) {
+        margin: 40px auto;
+      }
+  }
+}
